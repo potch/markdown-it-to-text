@@ -1,0 +1,15 @@
+{
+  "name": "markdown-it-to-text",
+  "version": "1.0.0",
+  "description": "Render a markdown-it token list without HTML tags.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "markdown-it"
+  ],
+  "author": "Potch",
+  "license": "ISC"
+}
