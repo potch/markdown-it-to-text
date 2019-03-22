@@ -1,11 +1,10 @@
 // adapted from https://github.com/markdown-it/markdown-it/blob/master/lib/renderer.js
 // takes the result of `.parse()` from markdown-it
 // e.g. `renderAsText(md.parse(source))`
-// does all the logic the rendered does except for the part where it prints the tags :)
+// does all the logic the renderer does except for the part where it prints the tags :)
 function renderAsText(tokens) {
     let result = '';
     tokens.forEach((token, idx) => {
-      console.log(token);
       if (token.type === 'inline') {
         result += renderAsText(token.children);
       } else if (token.type === 'text' ||
