@@ -10,6 +10,7 @@
     "markdown",
     "markdown-it"
   ],
+  "repository": "potch/markdown-it-to-text",
   "author": "Potch",
-  "license": "ISC"
+  "license": "MIT"
 }
